@@ -1,0 +1,323 @@
+/*
+   screen.css
+   noble-leader.net
+   
+   Created by Trung LE on 2011-09-15.
+   Copyright 2011 Noble Leader. All rights reserved.
+*/
+@import url(http://fonts.googleapis.com/css?family=Gentium+Basic|Amaranth:400|PT+Sans+Caption:700);
+body {
+  font-family: "Gentium Basic", arial, "helvetica neue",helvetica,"lucida grande",sans-serif;
+  font-size: 14px; }
+
+h1, h2, h3, h4, h5, h5, h6 {
+  font-family: "PT Sans Caption", sans-serif;
+  text-rendering: optimizelegibility;
+  color: #db1926; }
+
+h2 {
+  font-size: 28px; }
+
+h1 {
+  font-size: 36px;
+  color: #2b2b2b; }
+
+body {
+  background-color: #FFF;
+  color: #2b2b2b;
+  min-width: 1190px;
+  text-align: center;
+  margin: 0; }
+
+a:link, a:active, a:visited {
+  color: #2b2b2b;
+  text-decoration: none; }
+
+a:hover {
+  color: #ff6c00; }
+
+ul {
+  list-style: none outside none;
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+header, div, section, footer {
+  overflow: hidden; }
+
+#main-header {
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 20px; }
+
+#main-header, #page-header, #main-footer, #people, #philosophy, #contact-info, #programs, #services, .secondary, .primary {
+  margin: 0 auto;
+  padding: 0 25px;
+  text-align: left;
+  width: 995px;
+  display: block;
+  clear: both; }
+
+#main-header h1 {
+  float: left;
+  margin: 5px 0; }
+  #main-header h1 a {
+    background: url("../images/noble-leader-logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 100px;
+    text-indent: -9999px;
+    width: 367px; }
+#main-header ul {
+  float: right;
+  margin-top: 72px; }
+  #main-header ul li {
+    float: left;
+    line-height: 20px; }
+    #main-header ul li a {
+      color: #2B2B2B;
+      display: block;
+      font: 200 20px/24px Helvetica, sans-serif;
+      margin: 0 0 0 25px;
+      padding: 0 0 0 20px;
+      background-repeat: no-repeat; }
+    #main-header ul li a.current {
+      /* background-image: url("../images/sprite.png"); */ }
+  #main-header ul li#nav-programs a:active, #main-header ul li#nav-programs a:visited, #main-header ul li#nav-programs a:hover, #main-header ul li#nav-contact a:active, #main-header ul li#nav-contact a:visited, #main-header ul li#nav-contact a:hover {
+    color: #db1926; }
+  #main-header ul li#nav-programs a.current, #main-header ul li#nav-contact a.current {
+    background-position: 0 -638px; }
+  #main-header ul li#nav-services a:active, #main-header ul li#nav-services a:visited, #main-header ul li#nav-services a:hover {
+    color: #46b700; }
+  #main-header ul li#nav-about a:active, #main-header ul li#nav-about a:visited, #main-header ul li#nav-about a:hover {
+    color: #00b8f6;
+    background-position: 0 -638px; }
+  #main-header ul li#nav-contact a:active, #main-header ul li#nav-contact a:visited, #main-header ul li#nav-contact a:hover {
+    color: #ff6c00;
+    background-position: 0 -638px; }
+
+/* Block quote */
+blockquote {
+  border: 0 none;
+  margin: 0 25px 0 0;
+  line-height: 40px; }
+  blockquote p.quote {
+    /* background: url("../images/quote.png") no-repeat scroll 0 0 transparent;
+    padding-left: 50px; */
+    color: #2B2B2B;
+    font: 900 54px/60px "PT Sans Caption", helvetica, sans-serif;
+    text-rendering: optimizespeed;
+    text-shadow: 0 -1px 0 #bbbbbb;
+    text-align: center;
+    margin: 0; }
+
+/* Secondary wrapper */
+.secondary-wrapper {
+  background: url("../images/shadowing.png") no-repeat scroll center 0 rgba(228, 228, 228, 0.7);
+  border-bottom: 1px solid #DCDCDC;
+  border-top: 1px solid #DCDCDC;
+  padding: 39px 0; }
+  .secondary-wrapper h1 {
+    margin: 20px 0 40px 0; }
+
+/* Page header */
+#page-header {
+  background: url("../images/shadowing.png") no-repeat scroll center top transparent;
+  padding-top: 60px;
+  padding-bottom: 40px; }
+
+/* Footer */
+#main-footer {
+  color: #545454;
+  opacity: 0.7;
+  margin-top: 40px; }
+  #main-footer:hover {
+    opacity: 1.0; }
+  #main-footer p#copyright {
+    clear: both;
+    display: block;
+    margin: 40px 0 20px 0;
+    float: left; }
+  #main-footer nav section {
+    float: left;
+    margin-right: 25px; }
+    #main-footer nav section h3 {
+      font-size: 1.1em;
+      margin: 5px 0 20px 0; }
+  #main-footer nav #footer-sitemap {
+    width: 70px; }
+  #main-footer nav #footer-connect {
+    background: #fff;
+    border-top: 5px solid #292929;
+    float: left;
+    margin-top: 10px;
+    padding: 25px 20px 20px;
+    width: 275px; }
+    #main-footer nav #footer-connect h3 {
+      font-size: 2.5em;
+      color: #2b2b2b;
+      margin: 0; }
+
+/* ---- */
+#new-section {
+  height: 650px;
+  position: relative;
+  background: url("../images/shadowing.png") no-repeat scroll center 0 rgba(228, 228, 228, 0.7);
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC; }
+
+/* About Us */
+#philosophy p, #contact-info p {
+  font-size: 22px;
+  color: #555;
+  line-height: 30px; }
+
+#people {
+  padding-top: 60px; }
+  #people ul {
+    list-style: none outside none; }
+    #people ul li#diana-ismayanti, #people ul li#phillip-lee, #people ul li#chris-eatham {
+      display: none; }
+    #people ul li {
+      float: left;
+      margin: 0 25px 40px 0;
+      min-height: 240px;
+      width: 485px; }
+      #people ul li:nth-child(2n+1) {
+        clear: left; }
+      #people ul li:nth-child(2n) {
+        margin-right: 0; }
+      #people ul li div.person-photo {
+        float: left;
+        margin-right: 25px;
+        width: 145px; }
+      #people ul li div.person-info {
+        float: left;
+        width: 315px; }
+        #people ul li div.person-info h3 {
+          color: #AAAAAA;
+          font: 16px/20px "Amaranth", sans-serif;
+          margin: 0 0 20px 0; }
+        #people ul li div.person-info h2 {
+          color: #2B2B2B;
+          font-size: 36px;
+          font-weight: 200;
+          line-height: 40px;
+          margin: 0; }
+        #people ul li div.person-info p {
+          color: #555555;
+          font-weight: 400;
+          line-height: 20px;
+          margin-bottom: 20px;
+          text-rendering: optimizespeed;
+          text-align: justify; }
+
+/* Contact */
+#contact-info a {
+  color: #db1926; }
+
+/* Programs & Services */
+#programs, #services {
+  font-size: 22px; }
+  #programs #class-photos, #services #class-photos {
+    margin: 0 auto 0; }
+    #programs #class-photos ul li, #services #class-photos ul li {
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+      float: left;
+      height: 205px;
+      list-style-type: none;
+      margin-bottom: 20px;
+      position: relative;
+      width: 315px; }
+      #programs #class-photos ul li img, #services #class-photos ul li img {
+        background: none repeat scroll 0 0 #FFFFFF;
+        width: 315px; }
+    #programs #class-photos ul li.first, #services #class-photos ul li.first {
+      margin: 0 25px 0 0; }
+    #programs #class-photos ul li.last, #services #class-photos ul li.last {
+      margin: 0 0 0 25px; }
+
+/* Index - Secondary */
+.secondary {
+  font-size: 18px; }
+  .secondary ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none; }
+    .secondary ul li {
+      padding-left: 20px; }
+      .secondary ul li.blue {
+        background: url("../images/arrow-blue.png") no-repeat 0 3px transparent; }
+      .secondary ul li.green {
+        background: url("../images/arrow-green.png") no-repeat 0 3px transparent; }
+      .secondary ul li.red {
+        background: url("../images/arrow-red.png") no-repeat 0 3px transparent; }
+      .secondary ul li.yellow {
+        background: url("../images/arrow-yellow.png") no-repeat 0 3px transparent; }
+
+/* Index - Core Value */
+#core-values {
+  padding: 40px 25px;
+  text-align: center;
+  color: #555;
+  height: 650px; }
+  #core-values .value {
+    font-size: 24px;
+    position: relative;
+    text-align: left; }
+  #core-values #causes {
+    left: 748px;
+    top: -430px; }
+  #core-values #virtues {
+    top: -400px;
+    left: 50px; }
+  #core-values #inspirations {
+    left: 350px;
+    top: -75px; }
+  #core-values span {
+    font-size: 42px;
+    font-weight: bold; }
+  #core-values span.red {
+    color: #db1926; }
+  #core-values span.blue {
+    color: #00b8f6; }
+  #core-values span.green {
+    color: #46b700; }
+
+#quote-slider {
+  /* height: 650px; */
+  /* margin-top: 60px; */
+  position: relative;
+  /* background: url("../images/shadowing.png") no-repeat scroll center 0 rgba(228, 228, 228, 0.7); */
+  background: url("../images/shadowing.png") no-repeat scroll center top transparent;
+  /* border-bottom: 1px solid #DCDCDC; */
+  /* border-top: 1px solid #DCDCDC; */
+  padding: 39px 0; }
+  #quote-slider ul.slider {
+    margin: 0 auto; }
+    #quote-slider ul.slider li {
+      display: none;
+      width: 995px;
+      margin: 0 auto; }
+      #quote-slider ul.slider li div.quote-wrapper {
+        height: 280px; }
+        #quote-slider ul.slider li div.quote-wrapper h2 {
+          margin: 0;
+          font-size: 48px;
+          text-align: left;
+          font-family: Amaranth, Brush Script MT;
+          color: #484848;
+          text-shadow: 0 1px 0 #FCFCFC; }
+        #quote-slider ul.slider li div.quote-wrapper h3 {
+          margin: 0 30px 30px 0;
+          color: #2b2b2b;
+          font-size: 28px;
+          text-align: right;
+          text-shadow: 0 1px 0 #FCFCFC; }
+      #quote-slider ul.slider li img {
+        width: 993px;
+        height: 420px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 0 4px rgba(0, 0, 0, 0.15); }
+    #quote-slider ul.slider li#nelson-mandela {
+      display: block; }
+    #quote-slider ul.slider li#aung-san-suu-kyi {
+      display: none; }
